@@ -1,0 +1,14 @@
+Release Notes
+-------------
+
+14/04/2025
+Due to work ＆ time constraints development the following gaps exists:
+1. Development was done on a Samsung S22 Ultra phone using Termux terminal emulator ＆ nano for IDE/coding. Would be preferably to use a full desktop environment ＆ Jupyter.
+2. Main logic for data joins was developed using SQL logic rather than dataframe constructs
+3. The EOM fund report date field in the external_funds table was not normalized & standardised.
+
+Improvements:
+1. Better error handling & filename ＆ column name differences
+2. Use of a config file for connection string ＆ other path variables 
+3. Checking for files that has already beem imported.
+4. User parallel processing to import files concurrently
